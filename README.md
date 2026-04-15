@@ -1,15 +1,6 @@
 # Git LFS S3 Proxy
 
-.lsfconfig to be added to new projects:
-
-[lfs]
-	url = https://9fd6dd07f86ecc0472585424bd6901ed:331ef76ea32ec00d7ab29f485622aacbf6d641e88ee8e6d4cd0bb380ead3cba7@lfs.robotsquid-srv.com/132649803e0a17d0818b42340c2ba41a.r2.cloudflarestorage.com/robotsquid-lfs
-	locksverify = true
-
-
 If you don't want the caceh to be shared, add another /myproject to the end of the url
-
-
 
 
 This [Cloudflare Pages](https://pages.cloudflare.com/) site acts as a [Git LFS](https://git-lfs.com/) server backed by any S3-compatible service.
